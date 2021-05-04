@@ -7,6 +7,7 @@ const BeautifyInput = ({onInputChange, value}) => {
             className="beautify-input"
             onChange={onInputChange}
             value={value}
+            placeholder="Paste your JSON"
             wrap="off">
         </textarea>
     )

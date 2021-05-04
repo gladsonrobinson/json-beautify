@@ -2,8 +2,7 @@
     .beautify-btn {
         height: 45px;
         width: 100%;
-        background-color: #2eff55;
-        border-radius:0.12em;
+        background-color: #4CAF50; 
         box-sizing: border-box;
         text-decoration:none;
         font-family:'Roboto',sans-serif;
@@ -12,9 +11,18 @@
         text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
         text-align:center;
         transition: all 0.15s;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 2px;
 
         &:hover { 
             text-shadow: 0 0 2em rgba(255,255,255,1);
+            background-color: #0c7010; 
+            border-color: #0c7010; 
+        }
+
+        &:active {
+            top: 2px;
         }
     }
 }
